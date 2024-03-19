@@ -1,0 +1,145 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('cart.jpeg'); 
+    background-repeat: no-repeat;
+    background-size: cover; 
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 40px;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.user-links {
+    display: flex;
+    align-items: center;
+}
+
+.user-links p {
+    margin: 0 10px;
+}
+.user-links form input {
+    background-color: #1D2B53; /* Dark background color for the button */
+    color: white; /* Text color for the button */
+    padding: 10px 15px; /* Padding for the button */
+    border: none; /* Remove button border */
+    border-radius: 4px; /* Rounded corners for the button */
+    cursor: pointer; /* Add pointer cursor on hover */
+}
+
+.user-links form input.view-cart-btn:hover {
+    background-color: #4A013E; 
+    color: #FFFFFF; 
+
+}
+
+h1 {
+    color: #A94438; 
+    text-align: center; 
+}
+
+.cart-items {
+    max-width: 900px;
+    margin: 20px auto;
+    background-color: #D9EDBF;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.cart-item {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.cart-item h3 {
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.cart-item p {
+    color: #888;
+}
+
+form {
+    margin-top: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="number"] {
+    width: 60px;
+    padding: 5px;
+    background-color: #f2f2f2;
+}
+
+.update-btn {
+    background-color: #4CAF50; /* Green color for Update button */
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.remove-btn {
+    background-color: #FF0000; /* Red color for Remove button */
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.proceed-to-checkout-btn {
+    display: block; 
+    margin: 20px auto; 
+    background-color: #76453B;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px; 
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.proceed-to-checkout-btn:hover,
+.add-more-items-btn:hover {
+    background-color: #218c53;
+}
+
+.add-more-items-btn {
+    display: block; 
+    margin: 20px ; 
+    background-color: #92C7CF;
+    color: #fff;
+    text-decoration: none;
+    width: 98px;
+    padding: 10px 15px; 
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn {
+    text-decoration: none;
+    color: #fff;
+}
