@@ -13,7 +13,7 @@ Features:
 .Logout: Users can log out securely using the logout button.
 
 Usage:
-.Sign in using the provided credentials (Username: Scachin, Password: Sachin@123) or register if you are a new user.
+.Sign in using the provided credentials (Username: Vishnu@123, Password: Vishnu@123) or register if you are a new user.
 .Browse restaurants and click on images to view menus.
 .Add items to your cart using the "Add More" button. You can update or remove items from the cart as needed.
 .Proceed to checkout, provide your address, and select a payment mode to confirm your order.
